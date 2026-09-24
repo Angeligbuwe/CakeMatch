@@ -1,0 +1,27 @@
+{
+  "name": "cakematch",
+  "version": "1.0.0",
+  "description": "A cake planning website that recommends a suitable cake size based on the number of guests and the customer's  preferences.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Angeligbuwe/CakeMatch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Angeligbuwe/CakeMatch/issues"
+  },
+  "homepage": "https://github.com/Angeligbuwe/CakeMatch#readme",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.5.2",
+    "ts-jest": "^29.4.13",
+    "typescript": "^5.9.3"
+  }
+}
