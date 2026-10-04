@@ -27,7 +27,7 @@ After a valid number is entered, CakeMatch will recommend a suitable cake size b
 
 # 6. What can go wrong?
 
-The input is invalid when it is empty, zero, negative, or not a number.
+The number of guests must be a positive whole number. The input is invalid when it is empty, zero, negative, a decimal number, or not a number.
 
 # 7. what happens when it does?
 
