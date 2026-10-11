@@ -30,6 +30,12 @@ model. The ranges map directly to a cake size:
 - The recommendation only considers the number of guests, not other
   factors such as cake shape, tiers, or portion sizes.
 
+## Package Boundary and Import Direction
+
+Tests, screens, and API routes may import the cake-size recommendation
+logic. The cake-size recommendation logic must remain independent and
+must never import from tests, screens, or API routes.
+
 ## When to Reopen
 
 Reconsider this decision if cake-size recommendations later need to take
